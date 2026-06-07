@@ -1,6 +1,6 @@
 # NightForge — Overview
 
-A one-page map of the system for fast review. Full detail lives in [`idea.md`](./idea.md); section names below match it. v2 backlog lives in [`/backlog`](./backlog).
+A one-page map of the system for fast review. Full detail lives in [`app-concept.md`](./app-concept.md); section names below match it. v2 backlog lives in [`/backlog`](./backlog).
 
 
 ## 1. The idea in 5 lines

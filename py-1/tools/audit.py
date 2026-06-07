@@ -6,7 +6,7 @@ cumulative caps and the capability-floor regression bar derived from it cannot b
 gamed. The log survives ``/dist`` swaps and is the source ``resume_after_deploy``
 replays.
 
-Record shapes (see idea-py.md -> Logging):
+Record shapes (see app-concept-py.md -> Logging):
   header: {ts, run_id, kind:"header", model, limits, system_prompt_hash, tools}
   step:   {ts, run_id, step, thought, calls:[{id,tool,params,result,ok}],
            tokens:{in,out}, cost, deploy}

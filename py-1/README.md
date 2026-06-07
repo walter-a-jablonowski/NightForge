@@ -5,7 +5,7 @@ tool-calling loop against an LLM, uses web search/fetch under an egress
 allowlist, writes its own code (`/src`) and memory (`/data`), passes a deploy
 gate, swaps itself over `/dist`, respawns, and resumes from `agent.log`. From
 there, **dev mode** grows the rest (compaction, caching, richer memory, more
-backends). See `idea-py.md` for the full design and `BUILD.md` for scope.
+backends). See `app-concept-py.md` for the full design and `BUILD.md` for scope.
 
 ## Layout
 

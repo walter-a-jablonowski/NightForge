@@ -1,5 +1,5 @@
 {
-  "_comment": "Manifest of backends shipped with the seed. Baked into /tools (non-editable). When web.allow_self_built_backends is off (dev) or improve != full (production), the smoke floor rejects any backend file not listed here. See idea-py.md -> Web backends.",
+  "_comment": "Manifest of backends shipped with the seed. Baked into /tools (non-editable). When web.allow_self_built_backends is off (dev) or improve != full (production), the smoke floor rejects any backend file not listed here. See app-concept-py.md -> Web backends.",
   "providers": ["openrouter"],
   "search": ["tavily", "exa"],
   "fetch": ["jina"]

@@ -4,7 +4,7 @@ Calls the Tavily HTTP API through the runtime egress guard (configured host:
 ``api.tavily.com``, so the search POST is allowed). The runtime injects the
 User-Agent; the key comes from the runtime secret channel, never os.environ.
 
-Returns the normalized search shape (see idea-py.md -> Web backends):
+Returns the normalized search shape (see app-concept-py.md -> Web backends):
     [ { title, url, snippet, score } ]
 """
 

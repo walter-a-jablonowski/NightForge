@@ -64,7 +64,7 @@ def main(argv):
     try:
         result = run(root)
     except cfg.ConfigError as e:
-        # Startup config error: fail fast with a clear message (idea-py.md -> Error handling).
+        # Startup config error: fail fast with a clear message (app-concept-py.md -> Error handling).
         print(f"startup config error: {e}", file=sys.stderr)
         return 2
     print(result if isinstance(result, str) else "done")

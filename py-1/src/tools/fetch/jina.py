@@ -5,7 +5,7 @@ markdown. The request to ``r.jina.ai`` is a configured host; the target URL is
 robots-checked first (open-web GET via the runtime guard). A JINA_API_KEY is
 optional (raises rate limits) and comes from the runtime secret channel.
 
-Returns the normalized fetch shape (see idea-py.md -> Web backends):
+Returns the normalized fetch shape (see app-concept-py.md -> Web backends):
     { content, content_type, status }
 """
 

@@ -8,7 +8,7 @@ The **restricted set** crosses the capability frontier and needs human approval
 (rejected here with a clear message): installing/replacing the installer or
 package manager itself; any index other than the configured PyPI
 (``--index-url`` / ``--extra-index-url``); and VCS / URL / local-path installs.
-See idea-py.md -> Security -> Dependencies.
+See app-concept-py.md -> Security -> Dependencies.
 """
 
 from __future__ import annotations

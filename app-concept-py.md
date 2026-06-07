@@ -1,5 +1,5 @@
 
-*Python edition of `idea.md`. The design is identical — only the language-specific parts differ: file extensions (`.py`), the dependency model (pip + PyPI + a virtualenv), and concrete Python tooling named where the base doc says "depends on language."*
+*Python edition of `app-concept.md`. The design is identical — only the language-specific parts differ: file extensions (`.py`), the dependency model (pip + PyPI + a virtualenv), and concrete Python tooling named where the base doc says "depends on language."*
 
 I am making an AI Agent that doesn't only self-improve but also makes most of its implementation itself.
 

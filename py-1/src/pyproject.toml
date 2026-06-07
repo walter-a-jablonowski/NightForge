@@ -17,4 +17,4 @@ dev = [
 # The `install` tool pins new dependencies into the dependencies list above and
 # the change rides the next deploy (test-gated + reproducible). The restricted
 # set (installer/package-manager, off-PyPI index, VCS/URL/path) needs human
-# approval — see idea-py.md -> Security -> Dependencies.
+# approval — see app-concept-py.md -> Security -> Dependencies.

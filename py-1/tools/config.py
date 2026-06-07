@@ -1,7 +1,7 @@
 """Config parsing + the governance lock.
 
 The runtime parses config and hands the agent a frozen ``Config`` object; the
-agent never re-reads the config files itself (see idea-py.md -> Runtime <-> agent
+agent never re-reads the config files itself (see app-concept-py.md -> Runtime <-> agent
 interface). The governance keys ``llm`` / ``limits`` / ``improve`` / ``web`` /
 ``tools`` are taken **only** from the operator's file (``dev-config.yml`` in dev,
 ``user-config.yml`` in production). They are stripped from the agent-authored

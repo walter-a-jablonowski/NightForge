@@ -17,7 +17,7 @@ from . import registry
 # --- frozen entrypoint + supervisor -----------------------------------------
 
 def main(config, llm=None):
-    """Drive runs until the session is done (see idea-py.md -> Run lifecycle).
+    """Drive runs until the session is done (see app-concept-py.md -> Run lifecycle).
 
     A ``deploy`` inside ``run_agent`` replaces the process; the respawned main()
     re-enters here and the next ``run_agent`` resumes the chain from agent.log.

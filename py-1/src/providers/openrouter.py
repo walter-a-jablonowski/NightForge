@@ -5,7 +5,7 @@ endpoint. Translates between the loop's normalized message/response shape and th
 OpenAI tool-calling format, and exposes ``context_window`` + ``count_tokens`` for
 the memory safety clip.
 
-Normalized response shape (see idea-py.md -> LLM provider):
+Normalized response shape (see app-concept-py.md -> LLM provider):
     { content: str|None, tool_calls: [{id, name, params}], tokens: {in, out}, cost: float }
 """
 
@@ -132,7 +132,7 @@ class OpenRouterProvider:
 
         Deliberately not tiktoken: OpenRouter proxies many tokenizers, so an exact
         count is impossible without a network call. An estimate is all the safety
-        clip needs (see idea-py.md -> LLM provider).
+        clip needs (see app-concept-py.md -> LLM provider).
         """
         chars = 0
         for m in messages:

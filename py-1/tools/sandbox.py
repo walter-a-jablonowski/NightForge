@@ -1,6 +1,6 @@
 """In-language security guards (defense-in-depth).
 
-IMPORTANT — this is **not** the security boundary. Per idea-py.md -> Security ->
+IMPORTANT — this is **not** the security boundary. Per app-concept-py.md -> Security ->
 Enforcement boundary, the real boundary is OS-level: the agent is expected to run
 inside an operator-provided isolated process/container (Docker Desktop / WSL2 on
 Windows) with the filesystem mounted to scope and *all* egress forced through an
