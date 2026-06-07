@@ -1,6 +1,6 @@
 ![alt text](misc/logo_2.png)
 
-Why write the agent? Let the agent write itself.
+> Why write the agent? Let the agent write itself.
 
 A minimal AI agent that writes most of its own implementation. You start it with a tiny seed; it spends "dev mode" reading state-of-the-art knowledge about agent design and components that the agent must have. It edits its own code until it's a competent agentic system. Then it switches to production and does whatever you set it to — optionally still improving itself along the way.
 
