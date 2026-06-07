@@ -4,7 +4,7 @@
 
 Why write the agent? Let the agent write itself.
 
-A minimal AI agent that writes most of its own implementation. You start it with a tiny seed; it spends "dev mode" reading state-of-the-art knowledge about agent design and editing its own code until it's a competent agentic system. Then it switches to production and does whatever you set it to — optionally still improving itself along the way.
+A minimal AI agent that writes most of its own implementation. You start it with a tiny seed; it spends "dev mode" reading state-of-the-art knowledge about agent design and components that the agent must have. It edits its own code until it's a competent agentic system. Then it switches to production and does whatever you set it to — optionally still improving itself along the way.
 
 | File/Dir | Description |
 |---|---|
@@ -19,11 +19,10 @@ A minimal AI agent that writes most of its own implementation. You start it with
 
 Started Python reference implementation (`py-1/`). No testing. I will do minimal testing when I can find the time or tokens for that.
 
+**Help wanted:** Testing help and contributions are welcome. \
+**MIT License (see below):** USE AT YOUR OWN RISK ONLY --
+
 *** DANGER *** DANGER *** DANGER *** DANGER *** DANGER ***
-
-**Help wanted:** Testing help and contributions are welcome.
-
--- MIT License (see below), USE AT YOUR OWN RISK ONLY --
 
 
 ## Why
