@@ -38,7 +38,7 @@ chain — loop step → deploy gate (smoke floor + agent tests + capability floo
 swap → respawn → resume → stop — with a deterministic stub, no network. Use it to
 verify the machinery; production always uses the real provider.
 
-## Run note: container requirement (the security boundary)
+## Run: container requirement (the security boundary)
 
 **The in-language guards in `tools/sandbox.py` are defense-in-depth, not the
 boundary.** The agent writes and runs its own code, and Python running with the
