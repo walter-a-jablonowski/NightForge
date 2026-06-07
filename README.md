@@ -13,14 +13,14 @@ A minimal AI agent that writes most of its own implementation. You start it with
 
 ## State
 
-*** DANGER *** DANGER *** DANGER *** DANGER *** DANGER ***
+> *** DANGER *** DANGER *** DANGER *** DANGER *** DANGER ***
 
 Started Python reference implementation (`py-1/`). No testing. I will do minimal testing when I can find the time or tokens for that.
 
 **Help wanted:** Testing help and contributions are welcome. \
 **MIT License (see below):** USE AT YOUR OWN RISK ONLY --
 
-*** DANGER *** DANGER *** DANGER *** DANGER *** DANGER ***
+> *** DANGER *** DANGER *** DANGER *** DANGER *** DANGER ***
 
 
 ## Why
