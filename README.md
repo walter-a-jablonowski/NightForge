@@ -1,4 +1,4 @@
-# NightForge
+![alt text](misc/logo_2.png)
 
 > **Self-implementing**, instead of just self-improving
 
