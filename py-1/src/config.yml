@@ -1,0 +1,9 @@
+# The agent's own settings, authored as /src/config.yml; active after the next
+# deploy. llm / limits / improve / web / tools are IGNORED here — they stay
+# operator-owned (the runtime takes them only from dev-config.yml / user-config.yml).
+# This is where the agent keeps flags for features it builds for itself, e.g.:
+#
+# compaction:
+#   trigger_tokens: 6000
+# fetch_cache:
+#   ttl_seconds: 3600

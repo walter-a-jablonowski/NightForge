@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# /dist and /dist.prev are runtime state, not source: the launcher regenerates
+# /dist from /src on first boot, and the agent swaps /src->/dist on every deploy.
+# /src is the source of truth and is committed; /dist always equals some committed
+# /src state, so tracking it only adds churn. (One-step rollback uses /dist.prev;
+# multi-step rollback/diff-review uses /src history.)
+# Keep the empty /dist dir in the repo via a single .gitkeep; ignore the built code.
+/dist/*
+!/dist/.gitkeep
+/dist.prev/*
+!/dist.prev/.gitkeep
+# agent.log is the trail and is committed so cumulative caps survive; keep it.

@@ -1,0 +1,27 @@
+improve: tools           # off | tools | full  (production-only)
+                         #   off   = no self-modification
+                         #   tools = repair existing tool/adapter files only (default)
+                         #   full  = unrestricted edits inside /src
+
+llm:                     # default LLM(s); API keys in .env
+  provider: openrouter
+  model: anthropic/claude-sonnet-4
+
+limits:
+  max_steps: 50
+  max_cost: 5.0
+  max_cost_sum: 50.0
+  max_deploys: 30
+
+tools:
+  web_search: tavily
+  web_fetch:  jina
+
+web:                     # outbound HTTP etiquette (same shape as dev-config)
+  user_agent: "NightForge"
+  contact:    "mailto:you@example.com"
+  # adding new backends in production is governed by `improve` (full only), not a flag
+
+# systemPrompt lives in AGENT.md (production system prompt)
+
+prodInstructions: |      # optional self-improvement instructions for production
